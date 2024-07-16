@@ -1,6 +1,6 @@
 ---
 name: Relatar Problema
-about: Crie um relatório para nos ajudar a melhorar
+about: Tamplate teste
 
 ---
 
