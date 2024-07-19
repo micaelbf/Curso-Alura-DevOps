@@ -16,7 +16,7 @@ jobs:
         run: docker build -t micaelbf/allbooks:1.2 .
 
       - name: Login no Docker Hub
-        run: echo ${{ secrets.DockerHubToken }} | docker login -u ${{ micaelbf }} --password-stdin
+        run: echo ${{ secrets.DOCKERHUB_Ak47mica@ }} | docker login -u ${{ secrets.DOCKERHUB_micaelbf }} --password-stdin
 
       - name: Push da Imagem Docker
         run: docker push micaelbf/allbooks:1.2
